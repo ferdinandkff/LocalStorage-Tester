@@ -13,12 +13,12 @@
     <form id="input" name="input">
         <div>
             <label>Username:</label>
-            <input type="text" name="username" id="username" placeholder="Your username">
+            <input type="text" name="username" id="username" placeholder="Your username" required>
         </div><br>
 
         <div>
             <label for="nationality">Nationality:</label>
-            <select name="country" id="country">
+            <select name="country" id="country" required>
                 <option value="">Please select a country...</option>
                 <option value="Afganistan">Afghanistan</option>
                 <option value="Albania">Albania</option>
@@ -272,7 +272,7 @@
 
         <div>
             <label for="gender">Gender:</label>
-            <input type="radio" id="female" name="gender"value="female"> Female<br>
+            <input type="radio" id="female" name="gender"value="female" required> Female<br> <!--required is only necessary for one item of the group-->
             <input type="radio" id="male" name="gender" value="male"> Male<br>
         </div><br />
 
