@@ -11,7 +11,7 @@ function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ['Gender', 'Number'],
     ['Female', nrFemales],
-    ['Male', nrMales,
+    ['Male', nrMales]
   ]);
 
   var options = {
