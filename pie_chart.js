@@ -1,7 +1,6 @@
 // Load Google charts
 google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawGenderChart);
-google.charts.setOnLoadCallback(drawCountryChart);
+google.charts.setOnLoadCallback(drawGenderChart, drawCountryChart);
 
 // Draw chart for genders
 function drawGenderChart() {
